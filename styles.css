@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  padding-top: 20%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  margin-top: -200px;
+  text-transform: uppercase;
+}
+.goal-counter {
+  background-color: #810d34;
+  border-top: 3px solid #b2a9ab;
+  border-bottom: 3px solid #b2a9ab;
+  height: 57px;
+  max-width: fit-content;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mins {
+  padding-left: 30px;
+}
+.goal-counter img {
+  border: 2px solid white;
+  size: 50px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-top: 5px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 7px;
+  font-weight: 600;
+  color: rgb(228, 224, 224);
+  background-color: #5c0623;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 rgb(58, 57, 57), -5px 7px 0 #200;
+  text-transform: uppercase;
+}
+.btn:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
+.button-reset {
+  margin-right: 70px;
+}
+
+.p2-prev {
+  margin-left: 110px;
+}
+.p2-next {
+  margin-right: 90px;
+}
